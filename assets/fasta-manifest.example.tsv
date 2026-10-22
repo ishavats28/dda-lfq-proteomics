@@ -1,0 +1,2 @@
+database_id	source	source_accession	taxonomy_id	organism	review_status	retrieval_date	original_sha256	contaminants	decoy_strategy	decoy_prefix	generator	generator_version	final_sha256
+synthetic_example	synthetic				not_applicable			none	test_only	rev_			

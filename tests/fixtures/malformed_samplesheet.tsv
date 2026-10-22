@@ -1,0 +1,2 @@
+sample	condition	replicate	mzml
+malformed_01	test_condition	1	malformed.mzML

@@ -1,0 +1,93 @@
+# Nextflow runtime and outputs
+.nextflow/
+.nextflow.log*
+work/
+results/
+!results/
+results/*
+!results/example/
+!results/example/**
+reports/
+timeline*.html
+trace*.txt
+dag*.html
+
+# Raw and converted mass spectrometry data
+*.raw
+*.RAW
+*.wiff
+*.wiff.scan
+*.d
+*.mzML
+*.mzML.gz
+*.mzXML
+*.mgf
+
+# Explicitly retained synthetic parser fixtures
+!tests/fixtures/*.mzML
+!tests/fixtures/**/*.mzML
+
+# Sequence databases and indices
+*.fasta
+*.fasta.gz
+*.fa
+*.fa.gz
+databases/
+db/
+indices/
+.meta/
+
+# Explicitly retained tiny synthetic FASTA contract fixtures
+!tests/fixtures/**/*.fasta
+
+# Large proteomics intermediates
+*.pepXML
+*.pep.xml
+*.protXML
+*.prot.xml
+*.resource.txt
+*.stdout.log
+*.stderr.log
+*.pin
+*.pidx
+*.pepindex
+*.quantindex
+*.spectraST
+*.parquet
+*.feather
+*.arrow
+
+# Local tools and managed environments
+.local/
+software/
+tools/
+vendor/
+local-tools/
+proteowizard/
+ionquant-output/
+*.jar
+.conda/
+.mamba/
+.micromamba/
+envs/
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+
+# Credentials and local overrides
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials*
+secrets*
+conf/local.config
+
+# Editor and operating-system files
+.idea/
+.vscode/
+*.swp
+Thumbs.db
+.DS_Store

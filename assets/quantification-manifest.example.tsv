@@ -1,0 +1,2 @@
+sample	mzml	psm	protein
+yeast_run_01	path/to/yeast_run_01.mzML	path/to/yeast_run_01/psm.tsv	path/to/yeast_run_01/protein.tsv

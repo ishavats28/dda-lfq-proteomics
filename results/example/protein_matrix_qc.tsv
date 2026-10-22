@@ -1,0 +1,9 @@
+field	value
+analytical_proteins	1905
+samples	3
+overall_missing_values	339
+overall_missingness_percent	5.9317585301837275
+proteins_quantified_all_samples	1566
+proteins_quantified_exactly_two	339
+proteins_quantified_exactly_one	0
+imputation	none

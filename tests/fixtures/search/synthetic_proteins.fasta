@@ -1,0 +1,12 @@
+>sp|SYN001|SYNTHETIC_ALPHA synthetic integration target
+ACDEFGHILMNPQRSTK
+>sp|SYN002|SYNTHETIC_BETA synthetic integration target
+PEPTIDERPEPTIDEK
+>sp|SYN003|SYNTHETIC_GAMMA synthetic integration target
+GILGFVFTLTVPSER
+>rev_sp|SYN001|SYNTHETIC_ALPHA_REVERSED test-only reversed decoy
+KTSRQPNMLIHGFEDCA
+>rev_sp|SYN002|SYNTHETIC_BETA_REVERSED test-only reversed decoy
+KEDITPEPREDITPEP
+>rev_sp|SYN003|SYNTHETIC_GAMMA_REVERSED test-only reversed decoy
+RESPVTLTFVFGILG

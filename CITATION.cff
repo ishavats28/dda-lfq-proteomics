@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using this metadata."
+title: "Data-Dependent Acquisition Label-Free Quantification Proteomics"
+type: software
+version: 1.0.0
+date-released: 2026-10-23
+license: MIT
+repository-code: "https://github.com/ishavats28/dda-lfq-proteomics"
+authors:
+  - given-names: "Isha"
+    family-names: "Vats"
+abstract: "A Nextflow DSL2 workflow for DDA proteomics identification, target-decoy FDR control, label-free quantification, and quantitative quality control."
+keywords:
+  - proteomics
+  - DDA
+  - label-free quantification
+  - Nextflow
+  - MSFragger
+  - IonQuant

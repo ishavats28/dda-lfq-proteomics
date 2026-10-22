@@ -1,0 +1,2 @@
+sample	condition	replicate	mzml	batch	fraction
+example_01	reference	1	/path/to/example_01.mzML		
