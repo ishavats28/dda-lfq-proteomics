@@ -1,5 +1,11 @@
 # Data-Dependent Acquisition Label-Free Quantification Proteomics
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23575068.svg)](https://doi.org/10.5281/zenodo.23575068)
+[![GitHub release](https://img.shields.io/github/v/release/ishavats28/dda-lfq-proteomics?label=release)](https://github.com/ishavats28/dda-lfq-proteomics/releases)
+[![Nextflow](https://img.shields.io/badge/Nextflow-DSL2-23aa62?logo=nextflow&logoColor=white)](https://www.nextflow.io/)
+[![Python](https://img.shields.io/badge/Python-3.14-3776AB?logo=python&logoColor=white)](https://www.python.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 A reproducible Nextflow workflow for data-dependent acquisition (DDA) label-free quantification (LFQ) proteomics, covering peptide/protein identification, FDR-controlled protein inference, label-free quantification, and quantitative QC.
 
 DDA-LFQ Proteomics is a reproducible Nextflow DSL2 workflow for data-dependent acquisition shotgun proteomics. It connects validated mzML input, FDR-controlled peptide/protein identification, MS1 label-free quantification, protein-level quantitative QC, and compact reporting with conservative defaults for a small local workstation.
@@ -180,7 +186,11 @@ Reproducibility is supported through DSL2 process boundaries, explicit metadata 
 
 ## Citation
 
-Use the metadata in [CITATION.cff](CITATION.cff). Method and dataset references are collected in [docs/references.md](docs/references.md).
+If you use this workflow, please cite the archived v1.0.0 release:
+
+**Vats, I. (2026). Data-Dependent Acquisition Label-Free Quantification Proteomics (v1.0.0). Zenodo. https://doi.org/10.5281/zenodo.23575068**
+
+Machine-readable citation metadata is available in [`CITATION.cff`](CITATION.cff).
 
 ## License
 
